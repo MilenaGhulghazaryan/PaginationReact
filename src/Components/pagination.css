@@ -1,0 +1,39 @@
+.pagesNums {
+    display: flex;
+    margin-left: 35%;
+    gap: 5px;
+    margin-top: 5%;
+}
+
+.pagesNums div {
+    color: black;
+    background-color: gray;
+    float: left;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3.1vw;
+}
+
+.pagesNums div:hover {
+    background-color: #ddd;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.image {
+    width: 95%;
+    height: 200px;
+}
+
+/* .pagesNums div:active{
+    background-color: red;
+} */
